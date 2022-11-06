@@ -1,4 +1,7 @@
-import sys
-print(sys.path)
-x = 2
-print(x ** 32)
+# def statements
+def fib(n):
+    f = 0
+    for i in range(1, n + 1):
+        f += i
+    print(f)
+    return f
